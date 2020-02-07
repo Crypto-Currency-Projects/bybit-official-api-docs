@@ -1992,14 +1992,14 @@ https://api.bybit.com
 * `XRP`
 
 #### Wallet fund type (`wallet_fund_type`)
-* `Deposit`                 `存款`
-* `Withdraw`                `提现`
-* `RealisedPNL(Realized P&L)`             `已结盈亏`
-* `Commission`              `佣金`
-* `Refund`                  `退款`
-* `Prize`                   `赠金`
-* `ExchangeOrderWithdraw`   `资产兑换(扣钱)`
-* `ExchangeOrderDeposit`    `资产兑换(加钱)`
+* `Deposit`                     `存款`
+* `Withdraw`                    `提现`
+* `RealisedPNL(Realized P&L)`   `已结盈亏`
+* `Commission`                  `佣金`
+* `Refund`                      `退款`
+* `Prize`                       `赠金`
+* `ExchangeOrderWithdraw`       `资产兑换(扣钱)`
+* `ExchangeOrderDeposit`        `资产兑换(加钱)`
 
 #### Withdraw status (`status`)
 * `ToBeConfirmed`   - `待确认`
