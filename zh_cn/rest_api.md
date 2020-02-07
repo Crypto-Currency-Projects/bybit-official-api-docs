@@ -1994,7 +1994,7 @@ https://api.bybit.com
 #### Wallet fund type (`wallet_fund_type`)
 * `Deposit`                 `存款`
 * `Withdraw`                `提现`
-* `RealisedPNL`             `已结盈亏`
+* `RealisedPNL(Realized P&L)`             `已结盈亏`
 * `Commission`              `佣金`
 * `Refund`                  `退款`
 * `Prize`                   `赠金`

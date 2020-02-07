@@ -2013,7 +2013,7 @@ https://api.bybit.com
 #### Wallet fund type (`wallet_fund_type`)
 * `Deposit`
 * `Withdraw`
-* `RealisedPNL`
+* `RealisedPNL(Realized P&L)`
 * `Commission`
 * `Refund`
 * `Prize`
