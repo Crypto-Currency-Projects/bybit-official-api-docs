@@ -1,5 +1,7 @@
 # NOTICE: These docs are now OBSOLETE; please find the new documentation [here](https://bybit-exchange.github.io/docs/inverse). Thank you.
 
+# 注意：此文档不再更新，请访问 [新的文档地址](https://bybit-exchange.github.io/docs/inverse)，谢谢.
+
 # bybit-official-api-docs
 
 Official Documentation for the Bybit APIs and Web Socket
