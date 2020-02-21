@@ -3,7 +3,8 @@
 function get_signed_params($public_key, $secret_key, $params) {
     $params = array_merge(['api_key' => $public_key], $params);
     ksort($params);
-    $signature = hash_hmac('sha256', http_build_query($params), $secret_key);
+    //为防止http_build_query把参数自动encode，这里要urldecode一下，确保加密使用的是原字符串
+    $signature = hash_hmac('sha256', urldecode(http_build_query($params)), $secret_key);
     return http_build_query($params) . "&sign=$signature";
 }
 
