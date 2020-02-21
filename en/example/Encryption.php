@@ -3,7 +3,8 @@
 function get_signed_params($public_key, $secret_key, $params) {
     $params = array_merge(['api_key' => $public_key], $params);
     ksort($params);
-    $signature = hash_hmac('sha256', http_build_query($params), $secret_key);
+    //decode return value of http_build_query to make sure signing by plain parameter string
+    $signature = hash_hmac('sha256', urldecode(http_build_query($params)), $secret_key);
     return http_build_query($params) . "&sign=$signature";
 }
 
